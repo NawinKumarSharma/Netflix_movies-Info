@@ -18,24 +18,24 @@ const ContactForm = () => {
   const handleSubmit = async (formData) => {
 
     try {
-    
       const response = await submitContact({
         username: formData.get("username"),
         email: formData.get("email"),
         phone: formData.get("phone"),
         message: formData.get("message"),
-      })
+      });
 
-      if (response.status === 200) {
-       
+      console.log('Server response:', response);
+
+      if (response.status === 'OK') {
         setStatus('success');
       } else {
         setStatus('error');
       }
-
     } catch (e) {
-      console.log(e)
+      console.log('Error:', e);
     }
+
 
   }
 
