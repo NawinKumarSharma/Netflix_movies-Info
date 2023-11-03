@@ -33,7 +33,7 @@
 .navbarList a {
   font-weight: bold;
   font-size: 1.8rem;
-  color: #161617;
+  color: #898e8e;
   padding: 1.3rem 1rem;
   margin: 0;
   position: relative;
@@ -71,9 +71,9 @@
   }
 }
 
-.navbarList .navbarItem a:hover{
+/* .navbarList .navbarItem a:hover{
   color: #fff;
-}
+} */
 
 
 .mobile-navbar-btn {
@@ -107,7 +107,7 @@
 
   .mobile-nav-icon {
       font-size: 4.2rem;
-      color: #161617;
+      /* color: #161617; */
   }
 
   .mobile-nav-icon:hover, .close-outline:hover{
@@ -121,7 +121,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      background-color: #fff;
+      /* background-color: #fff; */
       display: flex;
       justify-content: center;
       align-content: center;
@@ -151,7 +151,7 @@
       position: absolute;
       top: 3%;
       right: 10%;
-      color: #161617;
+      /* color: #161617; */
       z-index: 9999;
   }
 

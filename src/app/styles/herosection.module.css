@@ -2,7 +2,7 @@
 
 .main_section{
     position: relative;
-    background: linear-gradient(-45deg, #a8e48a, #3a1ed9, #ced5ff);
+    background: linear-gradient(-45deg, #8ae4c6, #3a1ed9, #ced5ff);
     background-size: 400% 400%;
     animation: gradient-bg 20s ease infinite;
 }
@@ -17,7 +17,7 @@
 .hero_content h1{
     text-transform: uppercase;
     font-size: 4.8rem;
-    color: #000;
+    /* color: #000; */
 }
 
 .hero_content p{
@@ -26,6 +26,7 @@
     letter-spacing: .05rem;
     line-height: 1.65;
     font-size: large;
+    color: rgb(78, 78, 78);
 }
 
 .hero_image{
